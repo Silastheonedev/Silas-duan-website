@@ -572,14 +572,14 @@ function Startup() {
 // Consultancy
 function Consultancy() {
   const socials = [
-    { platform: "instagram", name: "@silastheone.dev", href: "https://www.instagram.com/silastheone.dev/" },
+    { platform: "instagram", name: "@sizheduan01", href: "https://www.instagram.com/sizheduan01/" },
     { platform: "youtube", name: "John Duan", href: "https://www.youtube.com/channel/UCB9z6AVOAMBn_ZB4otxylLw" },
     { platform: "twitter", name: "@silas_theone", href: "https://x.com/silas_theone" },
-    { platform: "linkedin", name: "John Duan", href: "https://linkedin.com/in/silasduan" },
+    { platform: "linkedin", name: "John Duan", href: "https://www.linkedin.com/in/john-duan-0a92623b9/" },
     { platform: "beehiiv", name: "The Becoming", href: "https://silasduan-articles.beehiiv.com" },
-    { platform: "substack", name: "John Duan", href: "https://substack.com/@silasduan" },
+    { platform: "substack", name: "John Duan", href: "https://substack.com/@johnduan" },
     { platform: "email", name: "silastheonedev@gmail.com", href: "mailto:silastheonedev@gmail.com" },
-    { platform: "tiktok", name: "@silas.theone4", href: "https://www.tiktok.com/@silas.theone4" },
+    { platform: "tiktok", name: "@johnduan08", href: "https://www.tiktok.com/@johnduan08?lang=en" },
   ];
 
   return (
