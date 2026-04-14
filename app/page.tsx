@@ -353,7 +353,7 @@ function About() {
         </h2>
         <div style={{ maxWidth: "680px" }}>
           <p style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(1.1rem, 2vw, 1.35rem)", lineHeight: 1.7, color: "#0C0B08", opacity: 0.85, marginBottom: "2.5rem" }}>
-            Hey, I&apos;m John. I am an 18-year-old founder and adventure athlete currently in my gap year. My work sits at the intersection of spiritual growth, cognitive science, and high-performance living.
+            Hey, I&apos;m John. I am an 18-year-old founder, aspiring life scientist and adventure athlete. My work sits at the intersection of spiritual growth, cognitive science, and high-performance living.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.6rem" }}>
             {tags.map((tag) => (
