@@ -88,7 +88,7 @@ const Barcode = () => (
     {[0,4,7,11,15,18,22,26,29,33,37,40,44,48,51,55,59,62,66,70,74,77,81,85,88,92,96,99,103,107,110,114,118,121,125,129,132,136,140,143,147,151,154,158,162,165,169,173].map((x, i) => (
       <rect key={i} x={x} y="5" width={i % 3 === 0 ? 2 : 1} height="40" fill="#0C0B08"/>
     ))}
-    <text x="90" y="58" textAnchor="middle" fontSize="7" fontFamily="monospace" fill="#0C0B08">SILAS-DUAN-2025</text>
+    <text x="90" y="58" textAnchor="middle" fontSize="7" fontFamily="monospace" fill="#0C0B08">JOHN-DUAN-2025</text>
   </svg>
 );
 
@@ -168,7 +168,7 @@ function Nav() {
     >
       <div style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: "64px" }}>
         <a href="#" style={{ fontFamily: "var(--font-cormorant)", fontSize: "1.5rem", fontWeight: 600, color: "#0C0B08", textDecoration: "none", letterSpacing: "0.02em" }}>
-          Silas Duan
+          John Duan
         </a>
         {/* Desktop nav */}
         <div style={{ display: "flex", gap: "2rem", alignItems: "center" }} className="hidden-mobile">
@@ -283,7 +283,7 @@ function Hero() {
 
         <div style={{ marginBottom: "0.2rem" }}>
           <h1 className="hero-name-distort" style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(4rem, 10vw, 9rem)", fontWeight: 700, lineHeight: 0.88, color: "#0C0B08", letterSpacing: "-0.02em", textTransform: "uppercase" }}>
-            Silas
+            John
           </h1>
         </div>
         <div style={{ marginBottom: "2.5rem" }}>
@@ -353,7 +353,7 @@ function About() {
         </h2>
         <div style={{ maxWidth: "680px" }}>
           <p style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(1.1rem, 2vw, 1.35rem)", lineHeight: 1.7, color: "#0C0B08", opacity: 0.85, marginBottom: "2.5rem" }}>
-            Hey, I&apos;m Silas. I am an 18-year-old founder and adventure athlete currently in my gap year. My work sits at the intersection of spiritual growth, cognitive science, and high-performance living.
+            Hey, I&apos;m John. I am an 18-year-old founder and adventure athlete currently in my gap year. My work sits at the intersection of spiritual growth, cognitive science, and high-performance living.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.6rem" }}>
             {tags.map((tag) => (
@@ -551,7 +551,7 @@ function Startup() {
           {/* Terminal log */}
           <div style={{ background: "#0C0B08", padding: "2rem", fontFamily: "var(--font-ibm-mono)", fontSize: "12px", lineHeight: 2, color: "#F4F1EA", border: "1px solid #1A3D6E" }}>
             <div style={{ color: "#1A3D6E", marginBottom: "1rem", fontSize: "10px", letterSpacing: "0.15em" }}>
-              TERMINAL · SILAS-DEV-LOG
+              TERMINAL · JOHN-DEV-LOG
             </div>
             {logs.map((line, i) => (
               <div key={i} style={{ opacity: i === logs.length - 1 ? 0 : 0.85 }}>
@@ -573,11 +573,11 @@ function Startup() {
 function Consultancy() {
   const socials = [
     { platform: "instagram", name: "@silastheone.dev", href: "https://www.instagram.com/silastheone.dev/" },
-    { platform: "youtube", name: "Silas Duan", href: "https://www.youtube.com/channel/UCB9z6AVOAMBn_ZB4otxylLw" },
+    { platform: "youtube", name: "John Duan", href: "https://www.youtube.com/channel/UCB9z6AVOAMBn_ZB4otxylLw" },
     { platform: "twitter", name: "@silas_theone", href: "https://x.com/silas_theone" },
-    { platform: "linkedin", name: "Silas Duan", href: "https://linkedin.com/in/silasduan" },
+    { platform: "linkedin", name: "John Duan", href: "https://linkedin.com/in/silasduan" },
     { platform: "beehiiv", name: "The Becoming", href: "https://silasduan-articles.beehiiv.com" },
-    { platform: "substack", name: "Silas Duan", href: "https://substack.com/@silasduan" },
+    { platform: "substack", name: "John Duan", href: "https://substack.com/@silasduan" },
     { platform: "email", name: "silastheonedev@gmail.com", href: "mailto:silastheonedev@gmail.com" },
     { platform: "tiktok", name: "@silas.theone4", href: "https://www.tiktok.com/@silas.theone4" },
   ];
@@ -655,10 +655,10 @@ function Footer() {
       <div style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "1.5rem" }}>
         <div>
           <p style={{ fontFamily: "var(--font-cormorant)", fontSize: "1.6rem", fontWeight: 600, color: "#0C0B08", marginBottom: "0.3rem" }}>
-            Silas Duan
+            John Duan
           </p>
           <p style={{ fontFamily: "var(--font-ibm-mono)", fontSize: "10px", letterSpacing: "0.08em", color: "#0C0B08", opacity: 0.4 }}>
-            © 2025–2026 · Silas Duan · All Signals Reserved
+            © 2025–2026 · John Duan · All Signals Reserved
           </p>
         </div>
         <div style={{ textAlign: "right" }}>

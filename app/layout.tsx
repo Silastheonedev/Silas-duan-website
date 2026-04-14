@@ -16,7 +16,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Silas Duan",
+  title: "John Duan",
   description: "Writer. Filmmaker. Founder. Explorer. Documenting the pursuit of a life fully lived.",
 };
 
