@@ -184,7 +184,7 @@ function Nav() {
             </a>
           ))}
           <a
-            href="https://silasduan-articles.beehiiv.com"
+            href="https://johnduan-articles.beehiiv.com"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -298,7 +298,7 @@ function Hero() {
 
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", marginBottom: "4rem" }}>
           <a
-            href="https://silasduan-articles.beehiiv.com"
+            href="https://johnduan-articles.beehiiv.com"
             target="_blank"
             rel="noopener noreferrer"
             style={{ fontFamily: "var(--font-ibm-mono)", fontSize: "12px", letterSpacing: "0.08em", color: "#F4F1EA", background: "#1A3D6E", padding: "14px 28px", textDecoration: "none", display: "inline-block", transition: "background 0.2s" }}
@@ -382,7 +382,7 @@ function About() {
 // Creation
 function Creation() {
   const cards = [
-    { title: "Articles", desc: "Newsletters & blogs via Beehiiv and Substack", href: "https://beehiiv.com", external: true },
+    { title: "Articles", desc: "Newsletters & blogs via Beehiiv and Substack", href: "https://johnduan-articles.beehiiv.com", external: true },
     { title: "Video Essays & Documentaries", desc: "YouTube", href: "https://youtube.com", external: true },
     { title: "Photography", desc: "Visual documentation of the journey", href: "/photography", external: false },
   ];
@@ -576,7 +576,7 @@ function Consultancy() {
     { platform: "youtube", name: "John Duan", href: "https://www.youtube.com/channel/UCB9z6AVOAMBn_ZB4otxylLw" },
     { platform: "twitter", name: "@silas_theone", href: "https://x.com/silas_theone" },
     { platform: "linkedin", name: "John Duan", href: "https://www.linkedin.com/in/john-duan-0a92623b9/" },
-    { platform: "beehiiv", name: "The Becoming", href: "https://silasduan-articles.beehiiv.com" },
+    { platform: "beehiiv", name: "The Becoming", href: "https://johnduan-articles.beehiiv.com" },
     { platform: "substack", name: "John Duan", href: "https://substack.com/@johnduan" },
     { platform: "email", name: "silastheonedev@gmail.com", href: "mailto:silastheonedev@gmail.com" },
     { platform: "tiktok", name: "@johnduan08", href: "https://www.tiktok.com/@johnduan08?lang=en" },
