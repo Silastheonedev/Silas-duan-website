@@ -337,7 +337,7 @@ function Hero() {
 
 // About
 function About() {
-  const tags = ["Gap Year", "Founder", "Adventure Athlete", "Cognitive Science", "Spiritual Growth"];
+  const tags = ["Founder", "Adventure Athlete", "Cognitive Science", "Spiritual Growth"];
   return (
     <section id="about" style={{ position: "relative", padding: "8rem 2rem", overflow: "hidden" }}>
       <div style={{ position: "absolute", top: 0, right: 0, pointerEvents: "none", zIndex: 1 }}>
